@@ -1,0 +1,54 @@
+.font1{
+    font-family: 'Merriweather', serif;
+
+}
+.font2{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+#presentacion.jumbotron{
+    background-color: orange;
+    color: brown;
+}
+
+#login.jumbotron{
+    background-color: orange ;
+    color: brown;
+}
+
+#error.jumbotron{
+    background-color: red ;
+    color: white;
+}
+
+#despedida.jumbotron{
+    background-color: orange ;
+    color: brown;
+}
+
+#login-ok.jumbotron{
+    background-color: green ;
+    color: white;
+}
+
+#secciones.jumbotron{
+    background-color: orange ;
+    color: brown;
+}
+
+#secciones hr{
+    background-color: brown ;
+}
+
+#secciones a{
+    color: brown ;
+}
+
+
+
+
+#botones{
+    display:flex;
+    justify-content: space-between;
+}
