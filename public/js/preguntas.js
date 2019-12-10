@@ -63,19 +63,27 @@ function responder(e) {
     }
 
 
-    setTimeout(mostrarRespuestas, 2000, numeroRespuestaCorrecta)
+    setTimeout(mostrarRespuestas, 2000, respuestaCorrecta)
 }
 
-function mostrarRespuestas(numeroRespuestaCorrecta) {
+function mostrarRespuestas(respuestaCorrecta) {
     
-    cambiarColorBoton("respuesta-1",false)
-    cambiarColorBoton("respuesta-2",false)
-    cambiarColorBoton("respuesta-3",false)
+    //console.log('mostrarRespuestas')
 
-    if(numeroRespuestaCorrecta) {
-        let selector = "respuesta-"+ numeroRespuestaCorrecta
-        console.log(selector)
-        cambiarColorBoton(selector,true)
+    //console.log('respuestaCorrecta', respuestaCorrecta)
+    for(var index=0; index<pregunta.opciones.length; index++) {
+        //console.log(respuestaCorrecta,pregunta.opciones[index])
+        if(respuestaCorrecta == pregunta.opciones[index]) {
+            console.log('respuesta correcta')
+            var id = "respuesta-"+ (index + 1) 
+            cambiarColorBoton(id,true)
+    
+        }
+        else {
+            console.log('respuesta INcorrecta')
+            var id = "respuesta-"+ (index + 1) 
+            cambiarColorBoton(id,false)
+        }
     }
 
     setTimeout(getPregunta, 3000)

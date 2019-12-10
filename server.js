@@ -16,6 +16,7 @@ function getPregunta(preguntas) {
     let cantidadPreguntas = preguntas.length
     preguntaSeleccionada = parseInt(random * cantidadPreguntas)
 
+    //preguntaSeleccionada = 1
     return preguntas[preguntaSeleccionada]
 }
 

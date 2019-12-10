@@ -5,24 +5,24 @@ Configuración de las preguntas del juego.
 
 let preguntas = [
   {
-   texto_pregunta:'¿Qué indica la siguiente señal?',
+   texto_pregunta:'Según las últimas estadísticas del Observatorio Vial de la Ciudad de Bs. As., ¿cuál es el rango etario con mayor número de víctimas lesionadas y fatales en siniestros viales?',
     opciones:[
-      'No girar en U.',
-      'Prohibido girar a la izquierda.',
-      'Giro a la izquierda'
+      'Niños menores de 15 años',
+      'Jóvenes y adultos de 15 a 34 años',
+      'Adultos mayores de 35 años'
     ],
-    imagen_src:'img/preguntas/img_preg_01.png',
-    respuesta_correcta: 'Prohibido girar a la izquierda.'
+    imagen_src:'img/preguntas/word-image.jpeg',
+    respuesta_correcta: 'Jóvenes y adultos de 15 a 34 años'
   },
   {
-   texto_pregunta:'Entre los efectos que produce el alcohol en el conductor se encuentra la:',
-    opciones:[
-      'Incorrecta apreciación de distancias y velocidades.',
-      'Ampliación del campo visual.',
-      'Disminución de la distancia de frenado.'
+   texto_pregunta:'Según las últimas estadísticas del Observatorio Vial de la Ciudad de Bs. As., la tasa más alta de víctimas fatales como consecuencia de incidentes de tránsito (luego de los peatones) son los usuarios de',
+   opciones: [
+      'Opción A',
+      'Opcion B',
+      'Opcion C'
     ],
-    imagen_src:'img/preguntas/img_generica.png',
-    respuesta_correcta: 'Incorrecta apreciación de distancias y velocidades.'
+    imagen_src:'img/preguntas/pregunta2.png',
+    respuesta_correcta: 'Opcion B'
   },
   {
    texto_pregunta:'¿Qué señal indica giro obligatorio izquierda?',
@@ -35,14 +35,14 @@ let preguntas = [
     respuesta_correcta: 'Opción C'
   },
   {
-   texto_pregunta:'Marcá dónde está permitido estacionar?',
+   texto_pregunta:'A fin de aumentar la propia seguridad y la de los demás, ¿a qué se debería poner atención durante la circulación?',
     opciones:[
-      'Opción A',
-      'Opción B',
-      'Opción C'
+      'Al estado del pavimento y al clima, en especial',
+      'A las condiciones en que se encuentran: el automóvil, la infraestructura vial, las condiciones climáticas y el conductor',
+      'Ninguna de las anteriores'
     ],
-    imagen_src:'img/preguntas/img_preg_04.png',
-    respuesta_correcta: 'Opción B'
+    imagen_src:'img/preguntas/img_generica.png',
+    respuesta_correcta: 'A las condiciones en que se encuentran: el automóvil, la infraestructura vial, las condiciones climáticas y el conductor'
   },
   {
    texto_pregunta:'¿Según que señal de tránsito existe siempre la obligación de parar?',
@@ -65,24 +65,24 @@ let preguntas = [
     respuesta_correcta: 'Puesto de control.'
   },
   {
-   texto_pregunta:'¿Qué indica la siguiente señal?',
+   texto_pregunta:'¿A qué se denomina incidente de tránsito o incidente vial?',
     opciones:[
-      'Límite de velocidad mínima.',
-      'Velocidad controlada por radar.',
-      'Límite máximo de velocidad.'
+      'Hecho que puede ser evitado, en el cual se produce daño a persona o cosa, en ocasión de circulación en la vía pública',
+      'Hecho impredecible e inevitable en ocasión de circulación en la vía pública',
+      'Hecho, evitable o no, que involucra daños a terceros.'
     ],
-    imagen_src:'img/preguntas/img_preg_07.png',
-    respuesta_correcta: 'Límite máximo de velocidad.'
+    imagen_src:'img/preguntas/img_generica.png',
+    respuesta_correcta: 'Hecho que puede ser evitado, en el cual se produce daño a persona o cosa, en ocasión de circulación en la vía pública'
   },
   {
-   texto_pregunta:'Si encuentra este semáforo en una intersección, podrá pasar:',
+   texto_pregunta:'Indique cuál de las siguientes situaciones conlleva mayor probabilidad de siniestralidad',
     opciones:[
-      'Cualquiera sea la dirección que vaya a tomar.',
-      'Sólo si sigue de frente.',
-      'Sólo si va a seguir la dirección que marca la flecha.'
+      'Opción A',
+      'Opción B',
+      'Opción A y B'
     ],
-    imagen_src:'img/preguntas/img_preg_08.png',
-    respuesta_correcta: 'Sólo si va a seguir la dirección que marca la flecha.'
+    imagen_src:'img/preguntas/AyB.png',
+    respuesta_correcta: 'Opción B.'
   },
   {
    texto_pregunta:'¿Qué indica la siguiente señal?',
@@ -105,24 +105,24 @@ let preguntas = [
     respuesta_correcta: 'Por la izquierda, haciendo las señales respectivas.'
   },
   {
-   texto_pregunta:'¿Quién es el responsable civil por un accidente de tránsito producido por un menor de edad poseedor de una licencia de conductor?',
+   texto_pregunta:'¿Cuál de las siguientes opciones representa a los usuarios de la vía, ordenados de más a menos vulnerable?',
     opciones:[
-      'El que lo acompaña.',
-      'El que firmó la autorización para obtener la licencia.',
-      'El que le autorizó el uso del vehículo.'
+      'Camión – Colectivo – Moto – Ciclista – Peatón – Taxi/Automóvil',
+      'Peatón – Ciclista – Moto – Colectivo – Taxi/Automóvil – Camión',
+      'Peatón – Ciclista – Colectivo – Moto – Taxi/Automóvil – Camión'
     ],
     imagen_src:'img/preguntas/img_generica.png',
-    respuesta_correcta: 'El que firmó la autorización para obtener la licencia.'
+    respuesta_correcta: 'Peatón – Ciclista – Moto – Colectivo – Taxi/Automóvil – Camión'
   },
   {
-   texto_pregunta:'El que conduce un vehículo ¿qué documentación personal debe llevar consigo?',
+   texto_pregunta:'¿A qué medio de transporte corresponden todos los siguientes beneficios: ecológico, saludable, económico y rápido?',
     opciones:[
-      'La licencia de conductor es suficiente.',
-      'La licencia de conductor y su documento de identidad.',
-      'La licencia de conductor, su documento de identidad y la cédula verde.'
+      'Opción A',
+      'Opción B',
+      'Opción C'
     ],
-    imagen_src:'img/preguntas/img_generica.png',
-    respuesta_correcta: 'La licencia de conductor y su documento de identidad.'
+    imagen_src:'img/preguntas/ABC.png',
+    respuesta_correcta: 'Opción A'
   },
   {
    texto_pregunta:'¿Está permitido estacionar moto vehículos sobre la vereda?',
@@ -145,24 +145,24 @@ let preguntas = [
     respuesta_correcta: 'Opción C'
   },
   {
-   texto_pregunta:'¿Qué debe hacer si observa que un vehículo está a punto de alcanzarlo y pasarlo?',
+   texto_pregunta:'¿Es aconsejable circular en bicicleta de esta manera?',
     opciones:[
-      'Ceñirse bien a la derecha, y si es necesario, bajar la velocidad.',
-      'Aumentar la velocidad.',
-      'Es indiferente la velocidad de su vehículo.'
+      'Sí, porque está conduciendo correctamente',
+      'No, ya que utilizar auriculares es un factor de distracción que impide conectarse con lo que sucede alrededor',
+      'Sí, ya que tiene las medidas de seguridad necesarias y el uso de los auriculares permite mejorar la calidad del viaje'
     ],
-    imagen_src:'img/preguntas/img_generica.png',
-    respuesta_correcta: 'Ceñirse bien a la derecha, y si es necesario, bajar la velocidad.'
+    imagen_src:'img/preguntas/hombreenbici.jpeg',
+    respuesta_correcta: 'No, ya que utilizar auriculares es un factor de distracción que impide conectarse con lo que sucede alrededor'
   },
   {
-   texto_pregunta:'Si el conductor de un vehículo circula con las balizas encendidas, toca repetidamente la bocina y el acompañante saca el brazo agitando un pañuelo. ¿Qué están indicando?',
+   texto_pregunta:'¿Se puede circular en bicicleta por esta vía?',
     opciones:[
-      'Que el vehículo tiene un desperfecto.',
-      'Que transportan a una persona grave a un hospital.',
-      'Al exceso de velocidad y a la violación de luz roja.'
+      'Sí, siempre que se mantenga en el carril derecho.',
+      'No, está prohibido',
+      'Sí, mientras se respete la velocidad mínima de la arteria'
     ],
-    imagen_src:'img/preguntas/img_generica.png',
-    respuesta_correcta: 'Que transportan a una persona grave a un hospital.'
+    imagen_src:'img/preguntas/autopista.jpeg',
+    respuesta_correcta: 'No, está prohibido'
   },
   {
    texto_pregunta:'¿Cuál es el nivel máximo de alcoholemia admitido para conducir un automóvil particular?',
@@ -175,24 +175,24 @@ let preguntas = [
     respuesta_correcta: '0,5 gr. por litro de sangre.'
   },
   {
-   texto_pregunta:'Ud. está llegando a un cruce de calles sin semáforos ni policía, una persona está cruzando por la senda peatonal, Ud. debe:',
+   texto_pregunta:'¿Está permitido estacionar una bicicleta en este lugar?',
     opciones:[
-      'Disminuir la marcha y tener cuidado.',
-      'Parar y cederle el paso al peatón.',
-      'Seguir y atravesar el cruce, porque tiene prioridad.'
+      'No, los estacionamientos son exclusivos para usuarios de autos y motos',
+      'Sólo en algunos estacionamientos está permitido',
+      'Sí, los estacionamientos están obligados a destinar un espacio para bicicletas'
     ],
-    imagen_src:'img/preguntas/img_generica.png',
-    respuesta_correcta: 'Parar y cederle el paso al peatón.'
+    imagen_src:'img/preguntas/estacionamiento.jpeg',
+    respuesta_correcta: 'Sí, los estacionamientos están obligados a destinar un espacio para bicicletas'
   },
   {
-   texto_pregunta:'¿Qué deben hacer los conductores para facilitar el paso a un coche de bomberos en servicio de emergencia?',
+   texto_pregunta:'Si usted pretende cruzar esta intersección, ¿hacia qué lado debe mirar?',
     opciones:[
-      'Aumentar la velocidad para no ser un obstáculo.',
-      'Avisar a otros conductores usando repetidamente la bocina.',
-      'Apartarse normalmente a la derecha y, si es necesario, detenerse.'
+      'Hacia la derecha',
+      'Hacia la izquierda',
+      'Hacia ambos lados'
     ],
-    imagen_src:'img/preguntas/img_generica.png',
-    respuesta_correcta: 'Apartarse normalmente a la derecha y, si es necesario, detenerse.'
+    imagen_src:'img/preguntas/sendapeatonal.jpeg',
+    respuesta_correcta: 'Hacia ambos lados'
   },
   {
    texto_pregunta:'¿Cuál es la velocidad máxima permitida en autopistas, en el ámbito de la Ciudad Autónoma de Buenos Aires?',
@@ -227,25 +227,25 @@ let preguntas = [
   }
   ,
   {
-   texto_pregunta:'¿Qué vehículo está girando correctamente en la rotonda?',
+   texto_pregunta:'¿Qué vehículos pueden circular por el carril señalizado en la imagen?',
     opciones:[
-      'El rojo.',
-      'El celeste.',
-      'El Amarillo.'
+      'Todos los transportes de pasajeros',
+      'los colectivos entre las 07 h y las 21 h.',
+      'Colectivos autorizados y vehículos destinados al servicio de emergencia en cumplimiento de sus funciones'
     ],
-    imagen_src:'img/preguntas/img_preg_23.png',
-    respuesta_correcta: 'El celeste.'
+    imagen_src:'img/preguntas/colectivo.jpeg',
+    respuesta_correcta: 'Colectivos autorizados y vehículos destinados al servicio de emergencia en cumplimiento de sus funciones'
   }
   ,
   {
-   texto_pregunta:'Como norma de carácter general, ¿quién tiene prioridad de paso en una encrucijada o bocacalle?',
+   texto_pregunta:'¿Qué indica la señal horizontal que se encuentra demarcada sobre la calzada?',
     opciones:[
-      'Los vehículos que viene por el lado izquierdo.',
-      'El vehículo que va a girar.',
-      'El vehículo que se presenta por el lado derecho.'
+      'Carril exclusivo de colectivo de pasajeros',
+      'Cruce exclusivo de vehículos de emergencia',
+      'Ceda el paso'
     ],
-    imagen_src:'img/preguntas/img_preg_24.png',
-    respuesta_correcta: 'El vehículo que se presenta por el lado derecho.'
+    imagen_src:'img/preguntas/carril.jpeg',
+    respuesta_correcta: 'Carril exclusivo de colectivo de pasajeros'
   }
 
 ];

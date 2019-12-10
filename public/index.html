@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#b621f3"/>
+
+    <!-- Status Bar for iOS -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Startup Icon for iOS -->
+    <link rel="apple-touch-startup-image" href="images/icons/icon-96x96.png">
+    <!-- Apple Touch icon for iOS -->
+    <link rel="apple-touch-icon" href="images/icons/icon-96x96.png">
+
     <title>index</title>
 </head>
 <body>
     
     <script>
-        location.href = '/inicio'
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('./sw.js').then(function(reg) {
+                    console.log('Successfully registered service worker', reg);
+                    location.href = '/inicio'
+                }).catch(function(err) {
+                    console.warn('Error whilst registering service worker', err);
+                });
+            })
+        }
+
     </script>
 
 </body>
